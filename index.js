@@ -1,6 +1,7 @@
 const express = require('express');
-
 const app = express();
+
+//Aula Criando Rotas iniciais
 
 app.get('/',(req,res)=>{
 
