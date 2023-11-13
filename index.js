@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-//Aula Criando Rotas iniciais
+//Aula Criando Rotas iniciais 4min
 
 app.engine('html', require('ejs'.renderFile)); 
 //setar a engine para renderização do tipo html usando o ejs para renderizar
