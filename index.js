@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-//Aula Criando Rotas iniciais 4min
+//Aula Projeto Node01 00min
 
 app.engine('html', require('ejs'.renderFile)); 
 //setar a engine para renderização do tipo html usando o ejs para renderizar
