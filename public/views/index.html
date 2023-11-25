@@ -4,6 +4,13 @@
         <title>ProjetoNode</title>
     </head>
         <body>
-            <h1>Olá Mundo!</h1>
+            <div class="tarefas">
+                <% for(let i = 0; i < tarefasList.length; i++){ %>
+                
+                    <p><%= tarefasList[i] %></p>
+
+                <% } %>
+
+            </div>
         </body>
 </html>
